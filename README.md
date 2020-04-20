@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A.) Adaptive design is the process of creating multiple design breakpoints that adapt a site to specific device types. Responsive design not only incorporates that process, but also makes each design flexible to encompass a wider set of devices within a device type.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A.) Mobile first is the process of creating your primary styles to fit mobile devices and then using media queries to target tablet and desktop and adapt styles to fit those devices. Mobile first makes use of the media query min-width property. Desktop first design is the process of creating your primary styles to fit desktop devices first and then using media queries to target tablet and mobile and adapt styles to fit those devices. Desktop first makes use of the media query max-width property.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+A.) A `font-size` of 62.5% on the html tag gives us a default pixel size of 10px when converted to pixels in most browsers. It makest it far easier to style the rest of the page fonts when working in `rem` units.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A.) Preprocessing brings Javascript-like concepts to CSS in order to make your styles more clean and more flexible. The styles are converted to standard CSS by a Preprocessor (hence the term Preprocessing).
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+A.) My favorite preprocessing concept is mixins. The concept that gives me the most trouble is parametric mixins. The fact that you have to consider default parameters and how to set them up best makes it a challenge to create them.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,7 +69,7 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
@@ -78,7 +88,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -114,11 +124,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
