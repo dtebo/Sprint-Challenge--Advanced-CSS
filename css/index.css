@@ -249,7 +249,7 @@ footer {
   align-items: center;
 }
 .home .intro {
-  margin-top: 122px;
+  margin-top: 19rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -264,6 +264,11 @@ footer {
   border-bottom-right-radius: 0;
   border-radius: 8px;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    margin-top: 20rem;
+  }
 }
 .home .space-images {
   display: flex;
