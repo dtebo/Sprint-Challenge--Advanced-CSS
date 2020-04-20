@@ -167,7 +167,6 @@ p {
   align-items: center;
   background-color: #F6F6F6;
   border: #F1F1F1;
-  color: #23293B;
 }
 .site-header h1 {
   font-size: 4rem;
@@ -237,6 +236,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2E2E2E;
+  border: 1px solid gray;
+  color: #FAFAFA;
+  font: 1.7rem 'Ubuntu';
+  height: 30px;
+  width: 100px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
