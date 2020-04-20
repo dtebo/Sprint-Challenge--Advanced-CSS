@@ -166,6 +166,8 @@ p {
   justify-content: flex-start;
   align-items: center;
   background-color: #F6F6F6;
+  border: #F1F1F1;
+  color: #23293B;
 }
 .site-header h1 {
   font-size: 4rem;
@@ -178,7 +180,11 @@ p {
   align-items: stretch;
   font-size: 2rem;
   margin: 0 0 20px 0;
-  width: 90%;
+  width: 70%;
+}
+.site-header .site-navigation a {
+  color: #23293B;
+  text-decoration: none;
 }
 footer {
   color: #22283B;
