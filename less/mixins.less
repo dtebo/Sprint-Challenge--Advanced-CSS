@@ -1,1 +1,24 @@
 // Mixins Here
+.flex(@direction: row, @justify: flex-start, @align: stretch){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.button(@background: gray, @border: 1px solid black, @font: inherit, @font-color: inherit, @height: 100px, @width: 100px){
+    background: @background;
+    border: @border;
+    color: @font-color;
+    font: @font;
+    height: @height;
+    width: @width;
+}
+
+.border-radius(@radius, @top-left: 0, @top-right: 0, @bottom-left: 0, @bottom-right: 0){
+    border-top-left-radius: @top-left;
+    border-top-right-radius: @top-right;
+    border-bottom-left-radius: @bottom-left;
+    border-bottom-right-radius: @bottom-right;
+    border-radius: @radius;
+}
